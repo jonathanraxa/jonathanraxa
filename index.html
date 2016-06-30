@@ -15,7 +15,23 @@
 		<!-- Custom styles for this template -->
 		<link href="css/style.css" rel="stylesheet">
 	    <link href="css/custom.css" rel="stylesheet">
+<script type="text/javascript">
+    function printRepoCount() {
+    var responseObj = JSON.parse(this.responseText);
+    for(i = 0; i < responseObj.length; i++){
+        console.log(responseObj[i].name + "URL: " + responseObj[i].html_url);
+    }
 
+   // document.getElementById("demo").innerHTML = txt;
+
+  }
+
+    var request = new XMLHttpRequest();
+    request.onload = printRepoCount;
+    request.open('get', 'https://api.github.com/users/jonathanraxa/repos', true)
+    request.send()
+
+</script>
     </head>
 	<body id="page-top">
 		<!-- Navigation -->
@@ -30,7 +46,7 @@
 					<span class="icon-bar"></span>
 					</button>
 					<a class="page-scroll" href="#page-top" >
-					<h1 style="padding-top:-50px;" class="text-left text-uppercase">Jonathan Raxa</h1>
+                        <h1 style="margin-top: 2%;" class="text-left text-uppercase">Jonathan Raxa</h1>
 					</a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -91,7 +107,7 @@
                             </div>
                             <div class="team-text">
                                 <h3>NUTRITIONAL & HEALTH ENTHUSIAST</h3>
-                                <div class="team-position">nuyuhealth.org</div>
+                                <div class="team-position"><a href="http://nuyuhealth.org" target="_blank">nuyuhealth.org</a></div>
                                 <p>I am an advocator for amazing health and nutritional foods. I hate seeing people suffer because of poor care for their body that they have full control over.</p>
                             </div>
                         </div>
@@ -364,7 +380,7 @@
 				<div class="col-md-6 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="images/demo/portfolio-1.jpg" alt="img02" class="img-responsive" />
+							<img src="images/projects/videdu.png" alt="img02" class="img-responsive" />
 							<figcaption>
 								<h2>VidEdu</h2>
 								<p>Video note taking application</p>
@@ -381,7 +397,7 @@
 							<img src="images/demo/portfolio-2.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
 								<h2>4Uimg</h2>
-								<p>Branding, Web Design</p>
+								<p>Artwork Purchasing Website</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
 							</figcaption>
 						</figure>
@@ -396,8 +412,8 @@
 						<figure class="effect-bubba">
 							<img src="images/demo/portfolio-3.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>Lamp & Velvet</h2>
-								<p>Branding, Web Design</p>
+								<h2>Photoworld</h2>
+								<p>Geo-location Photo Web Application</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-3">View more</a>
 							</figcaption>
 						</figure>
@@ -410,8 +426,8 @@
 						<figure class="effect-bubba">
 							<img src="images/demo/portfolio-4.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>Smart Name</h2>
-								<p>Branding, Design</p>
+								<h2>SFPark</h2>
+								<p>San Francisco Parking Locator Android Application</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-4">View more</a>
 							</figcaption>
 						</figure>
@@ -426,8 +442,8 @@
 						<figure class="effect-bubba">
 							<img src="images/demo/portfolio-5.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>Fast People</h2>
-								<p>Branding, Web Design</p>
+								<h2>Question/Answer Video</h2>
+								<p>Interactive Video Application</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-5">View more</a>
 							</figcaption>
 						</figure>
@@ -440,8 +456,8 @@
 						<figure class="effect-bubba">
 							<img src="images/demo/portfolio-6.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>Kites & Stars</h2>
-								<p>Branding, Web Design</p>
+								<h2>Scripts</h2>
+								<p>Ruby Scripts for Find and Replace</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
 							</figcaption>
 						</figure>
@@ -519,11 +535,11 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-1">Dean & Letter</h4>
+						<h4 class="modal-title" id="Modal-label-1">VidEdu</h4>
 					</div>
 					<div class="modal-body">
 						<img src="images/demo/portfolio-1.jpg" alt="img01" class="img-responsive" />
-						<div class="modal-works"><span>Branding</span><span>Web Design</span></div>
+						<div class="modal-works"><span>Ruby</span><span>Ruby on Rails</span></div>
 						<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
 					</div>
 					<div class="modal-footer">
