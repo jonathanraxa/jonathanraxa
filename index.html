@@ -23,6 +23,7 @@
 
     for(i = 0; i < responseObj.length; i++){
         console.log(responseObj[i].name + ": " + responseObj[i].html_url);
+        console.log(responseObj[i].description)
     }
 
    // document.getElementById("demo").innerHTML = txt;
@@ -67,6 +68,9 @@
 						<li>
 							<a class="page-scroll" href="#team">About me</a>
 						</li>
+                        <li>
+                            <a class="page-scroll" href="#education">Education</a>
+                        </li>
 						<li>
 							<a class="page-scroll" href="#contact">Contact</a>
 						</li>
@@ -76,7 +80,7 @@
 			</div>
 			<!-- /.container-fluid -->
 		</nav>
-
+<hr>
 
     <section id="team">
             <div class="container">
@@ -95,9 +99,18 @@
                                 <img src="images/me/1.jpg" class="img-responsive" alt="author">
                             </div>
                             <div class="team-text">
-                                <h3>WEB DEVELOPER</h3>
-                                <div class="team-position">Aspiring Full-Stack Web Developer</div>
-                                <p>Creating websites puts me in a state of flow - I absolutely love it. I've been in web development since my freshmen year of college (front-end mostly, but slowly touching the back-end).</p>
+                                <a class="page-scroll" href="#portfolio">
+                                    <h3>WEB DEVELOPER</h3>
+                                </a>
+                                <a class="page-scroll" href="#portfolio">
+                                    <div class="team-position">Aspiring Full-Stack Web Developer</div>
+                                </a>
+                                <br/>
+                                <a href="https://www.linkedin.com/in/jonathan-raxa-06a97246" target="_blank">FIND ME ON LINKEDIN</a>
+
+                                <a class="page-scroll" href="#portfolio" style="text-decoration:none">
+                                    <p>Creating websites puts me in a state of flow - I absolutely love it. I've been in web development since my freshmen year of college (front-end mostly, but slowly touching the back-end).</p>
+                                </a>
                             </div>
                         </div>
                     </div> 
@@ -109,8 +122,13 @@
                                 <img src="images/me/2.jpg" class="img-responsive" alt="author">
                             </div>
                             <div class="team-text">
-                                <h3>HEALTH MOTIVATOR</h3>
-                                <div class="team-position"><a href="http://nuyuhealth.org" target="_blank">nuyuhealth.org</a></div>
+                                <h3>HEALTH ADVOCATOR</h3>
+                                <div class="team-position">
+                                <a href="http://nuyuhealth.org" target="_blank">nuyuhealth.org</a> 
+                                <br/>
+                                <br/>
+                                <a href="http://twitter.com/jonathanraxa" target="_blank">Find me on Twitter</a>
+                                </div>
                                 <p>I am an advocator for amazing health and nutritional foods. I hate seeing people suffer because of poor care for their body that they have full control over.</p>
                             </div>
                         </div>
@@ -130,7 +148,7 @@
 	                                	<h3>INSPIRED CREATOR</h3>
 	                                </a>
 	                                <div class="team-position">
-	                                		Videography, Photography, Video Editing, Lyricist, Music Production, Outdoors lover, Teacher(<a href="impactingkids.org">impactingkids.org</a>)</div>
+	                                		Videography, Photography, Video Editing, Lyricist, Music Production, Outdoors lover, Teacher <br />(<a href="impactingkids.org">impactingkids.org</a>)</div>
 	                                <a href="create.html" target="_blank" style="text-decoration:none;">
 	                                	<p>I love the art of creating and I cannot stand it when people cannot appreciate and/or embrace the artistic expressions that they have inside of them! It's not always about logic people!</p>
 	                                </a>
@@ -144,7 +162,7 @@
             </div>
         </section>
 
-
+<hr>
 
 
 <section id="about" class="mz-module">
@@ -153,7 +171,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="section-title">
-                            <h2>EXPERIENCE</h2>
+                            <h2>EXPERIENCE <div style="font-size:17px;"><i>*<span style="color:red;">RED</span> bar indicates experience skill for specific job position</i><div></h2> 
                         </div>
                     </div>
                 </div>
@@ -196,7 +214,7 @@
                             <div class="skillbar" data-percent="80%">
                                 <h3>JavaScript</h3>
                                 <div class="skillbar-bar">
-                                    <div class="skillbar-percent" style="width: 80%;">
+                                    <div class="skillbar-percent" style="width: 15%;">
                                     </div>
                                 </div>
                             </div>
@@ -207,6 +225,16 @@
                                 <h3>HTML/CSS</h3>
                                 <div class="skillbar-bar">
                                     <div class="skillbar-percent" style="width: 95%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <!-- skill bar item -->
+                        <div class="skillbar-item">
+                            <div class="skillbar" data-percent="85%">
+                                <h3>PHP</h3>
+                                <div class="skillbar-bar">
+                                    <div class="skillbar-percent" style="width: 15%;">
                                     </div>
                                 </div>
                             </div>
@@ -243,9 +271,9 @@
                         <!-- skill bar item -->
                         <div class="skillbar-item">
                             <div class="skillbar" data-percent="90%">
-                                <h3>Drupal Page Building</h3>
+                                <h3>Drupal Page Building (CMS)</h3>
                                 <div class="skillbar-bar">
-                                    <div class="skillbar-percent" style="width: 30%;">
+                                    <div class="skillbar-percent" style="width: 90%;">
                                     </div>
                                 </div>
                             </div>
@@ -256,7 +284,7 @@
                             <div class="skillbar" data-percent="85%">
                                 <h3>HTML/CSS</h3>
                                 <div class="skillbar-bar">
-                                    <div class="skillbar-percent" style="width: 10%;">
+                                    <div class="skillbar-percent" style="width: 50%;">
                                     </div>
                                 </div>
                             </div>
@@ -267,7 +295,7 @@
                             <div class="skillbar" data-percent="85%">
                                 <h3>Drupal Faculty Training</h3>
                                 <div class="skillbar-bar">
-                                    <div class="skillbar-percent" style="width: 60%;">
+                                    <div class="skillbar-percent" style="width: 90%;">
                                     </div>
                                 </div>
                             </div>
@@ -305,9 +333,9 @@
                         <!-- skill bar item -->
                         <div class="skillbar-item">
                             <div class="skillbar" data-percent="90%">
-                                <h3>Ruby</h3>
+                                <h3>Drupal Page Building (CMS)</h3>
                                 <div class="skillbar-bar">
-                                    <div class="skillbar-percent" style="width: 80%;">
+                                    <div class="skillbar-percent" style="width: 70%;">
                                     </div>
                                 </div>
                             </div>
@@ -317,7 +345,7 @@
                             <div class="skillbar" data-percent="80%">
                                 <h3>JavaScript</h3>
                                 <div class="skillbar-bar">
-                                    <div class="skillbar-percent" style="width: 80%;">
+                                    <div class="skillbar-percent" style="width: 30%;">
                                     </div>
                                 </div>
                             </div>
@@ -327,7 +355,17 @@
                             <div class="skillbar" data-percent="85%">
                                 <h3>HTML/CSS</h3>
                                 <div class="skillbar-bar">
-                                    <div class="skillbar-percent" style="width: 95%;">
+                                    <div class="skillbar-percent" style="width: 30%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <!-- skill bar item -->
+                        <div class="skillbar-item">
+                            <div class="skillbar" data-percent="85%">
+                                <h3>Customer Technology Services</h3>
+                                <div class="skillbar-bar">
+                                    <div class="skillbar-percent" style="width: 98%;">
                                     </div>
                                 </div>
                             </div>
@@ -376,7 +414,7 @@
 
 
         </section>
-
+<hr>
 		
 		<section id="portfolio">
 			<div class="container">
@@ -384,7 +422,7 @@
 				<div class="col-lg-12 text-center">
 					<div class="section-title">
 						<h2>PORTFOLIO</h2>
-						<p>Experiences in technologies ranging from Ruby, Ruby on Rails, PHP, JavaScript/JQuery, API work, and React.</p>
+						<p><i>PERSONAL, SCHOOL, WORK PROJECTS</i></p>
 					</div>
 				</div>
 			</div>
@@ -393,7 +431,7 @@
 				<div class="col-md-6 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="images/projects/videdu.png" alt="img02" class="img-responsive" />
+							<img src="images/projects/videdu.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
 								<h2>VidEdu</h2>
 								<p>Video note taking application</p>
@@ -409,7 +447,7 @@
 						<figure class="effect-bubba">
 							<img src="images/demo/portfolio-2.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>4Uimg</h2>
+								<h2>4Uimg (<i>image pending</i>)</h2>
 								<p>Artwork Purchasing Website</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
 							</figcaption>
@@ -423,7 +461,7 @@
 				<div class="col-md-6 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="images/demo/portfolio-3.jpg" alt="img02" class="img-responsive" />
+							<img src="images/projects/photoworld.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
 								<h2>Photoworld</h2>
 								<p>Geo-location Photo Web Application</p>
@@ -437,7 +475,7 @@
 				<div class="col-md-6 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="images/demo/portfolio-4.jpg" alt="img02" class="img-responsive" />
+							<img src="images/projects/sfpark.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
 								<h2>SFPark</h2>
 								<p>San Francisco Parking Locator Android Application</p>
@@ -455,7 +493,7 @@
 						<figure class="effect-bubba">
 							<img src="images/demo/portfolio-5.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>Question/Answer Video</h2>
+								<h2>Question/Answer Video (<i>image pending</i>)</h2>
 								<p>Interactive Video Application</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-5">View more</a>
 							</figcaption>
@@ -467,11 +505,11 @@
 				<div class="col-md-6 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="images/demo/portfolio-6.jpg" alt="img02" class="img-responsive" />
+							<img src="images/projects/script.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
 								<h2>Scripts</h2>
-								<p>Ruby Scripts for Find and Replace</p>
-								<a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
+								<p>Ruby Scripts for Efficient Find and Replace</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-6">View more</a>
 							</figcaption>
 						</figure>
 					</div>
@@ -483,7 +521,28 @@
 
 		
 
-	
+<hr>
+        
+        <section id="education">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title" style="margin-top: 5%;">
+                        <h2>EDUCATION</h2>
+                        <p>
+                        San Francisco State University | <strong>Bachelor of Science in Computer Science</strong> | August 2010 – May 2016
+                        </p>
+                    </div>
+                </div>
+            </div>
+     
+     
+            </div><!-- container -->
+        </section>
+
+<hr>
+
+
 
 		<section id="contact">
 			<div class="container">
@@ -551,9 +610,11 @@
 						<h4 class="modal-title" id="Modal-label-1">VidEdu</h4>
 					</div>
 					<div class="modal-body">
-						<img src="images/demo/portfolio-1.jpg" alt="img01" class="img-responsive" />
+						<img src="images/projects/videdu.jpg" alt="img01" class="img-responsive" />
 						<div class="modal-works"><span>Ruby</span><span>Ruby on Rails</span><span>JavaScript/JQuery</span><span>HTML/CSS</span></div>
-						<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
+                        <p><strong>Website: </strong><a href="http://www.videdu.org">www.videdu.org</a></p>
+						<p><strong>Documentation:</strong> <a href="https://docs.google.com/document/d/16lotARoZ2KsIzn06sAM0vDntKwQaTTYQFjGzJO3iamU/edit?usp=sharing">VidEdu Documentation</a></p>
+                        <p><strong>Contribution: </strong>Project/Team Lead. Main Application Designer. Front-end. Back-end.</p>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -568,12 +629,15 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-2">Startup Framework</h4>
+						<h4 class="modal-title" id="Modal-label-2">4Uimg</h4>
 					</div>
 					<div class="modal-body">
 						<img src="images/demo/portfolio-2.jpg" alt="img01" class="img-responsive" />
-						<div class="modal-works"><span>Branding</span><span>Web Design</span></div>
-						<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
+						<div class="modal-works"><span>PHP</span><span>HTML/CSS</span><span>Ajax</span><span>MySQL</span></div>
+                        <p><strong>Website:</strong> www.sfsuswe.com/s16g04/ - Unfortunately the <i>server is down</i> so the website is NOT live</p>
+                        <p><strong>Source Code:</strong> <a href="github.com/jonathanraxa/4uimg" target="_blank">4Uimg Github</a></p>
+						<p><strong>Documentation:</strong> <a href="https://docs.google.com/document/d/1wR2uDwZn4haisS-8htjyZCgW5mHDu0cFbI5LwKrgKYg/edit?usp=sharing" target="_blank">4Uimg Documentation</a></p>
+                        <p><strong>Contribution:</strong> Tech-Lead. Designed and in charge of most Front-end UI</p>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -588,11 +652,11 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-3">Lamp & Velvet</h4>
+						<h4 class="modal-title" id="Modal-label-3">PhotoWorld</h4>
 					</div>
 					<div class="modal-body">
 						<img src="images/demo/portfolio-3.jpg" alt="img01" class="img-responsive" />
-						<div class="modal-works"><span>Branding</span><span>Web Design</span></div>
+						<div class="modal-works"><span>JavaScript</span><span>JQuery</span><span>HTML/CSS (Bootstrap)</span><span>Google Maps API</span><span>Flickr API</span></div>
 						<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
 					</div>
 					<div class="modal-footer">
@@ -608,12 +672,13 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-4">Smart Name</h4>
+						<h4 class="modal-title" id="Modal-label-4">SF Park Android Application</h4>
 					</div>
 					<div class="modal-body">
-						<img src="images/demo/portfolio-4.jpg" alt="img01" class="img-responsive" />
-						<div class="modal-works"><span>Branding</span><span>Web Design</span></div>
-						<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
+						<img src="images/projects/sfpark.jpg" alt="img01" class="img-responsive" />
+						<div class="modal-works"><span>Android</span><span>Java</span><span>Google Maps API</span><span>SF Park API</span></div>
+                        <p><strong>Source Code:</strong> <a href="github.com/jonathanraxa/SFPark" target="_blank">SFPark Github</a></p>
+                        <p><strong>Documentation:</strong> <a href="https://docs.google.com/document/d/108y4XNghaYLmeczUfabqUDDPKtlEsnXY6cR1FMpN914/edit?usp=sharing" target="_blank">SFPark Documentation</a></p>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -628,12 +693,12 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-5">Fast People</h4>
+						<h4 class="modal-title" id="Modal-label-5">Question/Answer Video Interaction</h4>
 					</div>
 					<div class="modal-body">
 						<img src="images/demo/portfolio-5.jpg" alt="img01" class="img-responsive" />
-						<div class="modal-works"><span>Branding</span><span>Web Design</span></div>
-						<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
+						<div class="modal-works"><span>HTML/CSS</span><span>JavaScript/JQuery</span><span>HTML5 Video</span><span>Bootstrap</span></div>
+						<p><strong>Description:</strong> Used HTML5 Video player to play video and pause on video instructor cue to allow user to choose an answer before resume.</p>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -642,6 +707,26 @@
 			</div>
 		</div>
 
+
+        <!-- Modal for portfolio item 5 -->
+        <div class="modal fade" id="Modal-6" tabindex="-1" role="dialog" aria-labelledby="Modal-label-6">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="Modal-label-5">Fast People</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/projects/script.jpg" alt="img01" class="img-responsive" />
+                        <div class="modal-works"><span>Ruby</span><span>Excel</span></div>
+                        <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 		<!-- Bootstrap core JavaScript
 			================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
