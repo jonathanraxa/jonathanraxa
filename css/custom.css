@@ -5,3 +5,9 @@
 ul {
     text-align: left;
 }
+.position_title{
+  font-weight:bold;
+}
+.container_resume{
+  margin-left: 10px;
+}
