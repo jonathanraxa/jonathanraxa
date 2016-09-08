@@ -15,14 +15,30 @@
 		<!-- Custom styles for this template -->
 		<link href="css/style.css" rel="stylesheet">
 	    <link href="css/custom.css" rel="stylesheet">
+			<style>
+img{
+	margin-left: 1.3%;
+}
+			</style>
 <script type="text/javascript">
     function printRepoCount() {
     var responseObj = JSON.parse(this.responseText);
 
-    console.log(responseObj[0].name + ": " + responseObj[0].description);
+  //  console.log(responseObj[0].name + ": " + responseObj[0].description);
+
+		$('#Modal-label-1').html(responseObj[12].name); // Videdu
+		$('#Modal-label-2').html(responseObj[0].name);  // 4UImg
+		$('#Modal-label-3').html(responseObj[7].name);  // PhotoWorld
+		$('#Modal-label-4').html(responseObj[10].name);  // Android SF Park
+	//	$('#Modal-label-5').html(responseObj[].name);  // Question/Answer Video
+		$('#Modal-label-6').html(responseObj[3].name);  // Ruby Scripts
+
 
     for(i = 0; i < responseObj.length; i++){
         console.log(responseObj[i].name + ": " + responseObj[i].html_url);
+				if(responseObj[i].name = "Videdu"){
+					console.log("num: " + i);
+				}
         console.log(responseObj[i].description)
     }
 
@@ -615,7 +631,7 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-1">VidEdu</h4>
+						<h4 class="modal-title" id="Modal-label-1"></h4>
 					</div>
 					<div class="modal-body">
 						<img src="images/projects/videdu.jpg" alt="img01" class="img-responsive" />
@@ -637,7 +653,7 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-2">4Uimg</h4>
+						<h4 class="modal-title" id="Modal-label-2"></h4>
 					</div>
 					<div class="modal-body">
 						<img src="images/projects/pending.jpg" alt="img01" class="img-responsive" />
@@ -660,7 +676,7 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-3">PhotoWorld</h4>
+						<h4 class="modal-title" id="Modal-label-3"></h4>
 					</div>
 					<div class="modal-body">
 						<img src="images/projects/pending.jpg" alt="img01" class="img-responsive" />
@@ -684,7 +700,7 @@
 						<h4 class="modal-title" id="Modal-label-4">SF Park Android Application</h4>
 					</div>
 					<div class="modal-body">
-						<img src="images/projects/sfpark.jpg" alt="img01" class="img-responsive" />
+						<img src="images/projects/sfpark.jpg" alt="img01" class="img-responsive"/>
 						<div class="modal-works"><span>Android</span><span>Java</span><span>Google Maps API</span><span>SF Park API</span></div>
                         <p><strong>Source Code:</strong> <a href="https://github.com/jonathanraxa/SFPark" target="_blank">SFPark Github</a></p>
                         <p><strong>Documentation:</strong> <a href="https://docs.google.com/document/d/108y4XNghaYLmeczUfabqUDDPKtlEsnXY6cR1FMpN914/edit?usp=sharing" target="_blank">SFPark Documentation</a></p>
@@ -723,7 +739,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="Modal-label-6">Fast People</h4>
+                        <h4 class="modal-title" id="Modal-label-6"></h4>
                     </div>
                     <div class="modal-body">
                         <img src="images/projects/script.jpg" alt="img01" class="img-responsive" />
