@@ -11,3 +11,8 @@ ul {
 .container_resume{
   margin-left: 10px;
 }
+
+.project_name{
+  color: black;
+  text-decoration: underline;
+}
